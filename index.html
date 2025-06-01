@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Choose an Option</h1>
+
+        <select id="option-select" onchange="displayInfo()">
+            <option value="">--Select an Option--</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select>
+
+        <div id="info-display">
+            <!-- Information will be displayed here based on selection -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
