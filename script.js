@@ -11,13 +11,13 @@ function displayInfo() {
             let infoText = '';
             switch (option.value) {
                 case 'violin':
-                    infoText = 'Violin: Melody, Octave+1, Clef-Treble, Transposition-C, Chords-No, Lyrics-No, Rhythm-No';
+                    infoText = 'Violin Melody, Octave+1, Clef-Treble, Transposition-C, Chords-No, Lyrics-No, Rhythm-No';
                     break;
                 case 'viola':
-                    infoText = 'Viola: Harmony II, Octave-0, Clef-Alto, Transposition-C, Chords-No, Lyrics-No, Rhythm-No';
+                    infoText = 'Viola Harmony II, Octave-0, Clef-Alto, Transposition-C, Chords-No, Lyrics-No, Rhythm-No';
                     break;
                 case 'cello':
-                    infoText = 'Cello: Counter Melody, Octave-1, Clef-Bass, Transposition-C, Chords-No, Lyrics-No, Rhythm-No';
+                    infoText = 'Cello Counter Melody, Octave-1, Clef-Bass, Transposition-C, Chords-No, Lyrics-No, Rhythm-No';
                     break;
                 default:
                     break;
