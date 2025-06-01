@@ -10,14 +10,14 @@ function displayInfo() {
         selectedOptions.forEach(option => {
             let infoText = '';
             switch (option.value) {
-                case 'option1':
-                    infoText = 'You selected Option 1. Here’s some information about it.';
+                case 'violin':
+                    infoText = 'Melody, Octave-+1, Clef-Treble, Transposition-C, Chords-No, Lyrics-No, Rhythm-No';
                     break;
-                case 'option2':
-                    infoText = 'You selected Option 2. Here’s some information about it.';
+                case 'viola':
+                    infoText = 'Harmony II, Octave-0, Clef-Alto, Transposition-C, Chords-No, Lyrics-No, Rhythm-No';
                     break;
-                case 'option3':
-                    infoText = 'You selected Option 3. Here’s some information about it.';
+                case 'cello':
+                    infoText = 'Counter Melody, Octave–1, Clef-Bass, Transposition-C, Chords-No, Lyrics-No, Rhythm-No';
                     break;
                 default:
                     break;
